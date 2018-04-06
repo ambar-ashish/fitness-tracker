@@ -7,7 +7,14 @@ import {
   MatInputModule,
   MatDatepickerModule,
   MatNativeDateModule,
-  MatCheckboxModule
+  MatCheckboxModule,
+  MatSidenavModule,
+  MatToolbarModule,
+  MatListModule,
+  MatTabsModule,
+  MatCardModule,
+  MatSelectModule,
+  MatProgressSpinnerModule
 } from '@angular/material';
 
 
@@ -15,11 +22,15 @@ import {
   imports: [MatButtonModule, MatIconModule, 
   			MatFormFieldModule, MatInputModule, 
   			BrowserAnimationsModule, MatDatepickerModule,
-  			MatNativeDateModule, MatCheckboxModule],
+  			MatNativeDateModule, MatCheckboxModule, MatSidenavModule,
+  			MatToolbarModule,MatListModule, MatTabsModule,
+        MatCardModule, MatSelectModule, MatProgressSpinnerModule],
   exports: [MatButtonModule, MatIconModule, 
   			MatFormFieldModule, MatInputModule, 
   			BrowserAnimationsModule, MatDatepickerModule,
-  			MatNativeDateModule, MatCheckboxModule]
+  			MatNativeDateModule, MatCheckboxModule, MatSidenavModule,
+  			MatToolbarModule, MatListModule, MatTabsModule,
+        MatCardModule, MatSelectModule, MatProgressSpinnerModule]
 })
 export class MaterialModule{
 

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MaterialModule } from './material.module';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +6,4 @@ import { MaterialModule } from './material.module';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
 }
